@@ -1,5 +1,5 @@
 # Define the API endpoint URL
-$apiUrl = "https://ip-172-31-21-226.us-east-2.compute.internal/api/v2/job_templates/8/callback/"
+$apiUrl = "https://xxx.com/api/v2/job_templates/8/callback/"
 
 $headers = @{
     "Content-Type" = "application/json"
