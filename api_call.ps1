@@ -6,7 +6,7 @@ $headers = @{
 }
 
 $body = @{
-    "host_config_key" = "redhatdemo"
+    "host_config_key" = "demopass"
 } | ConvertTo-Json
 
 [Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12
